@@ -30,6 +30,7 @@ input_folder = 'input'  # Replace with your input folder path
 output_folder = 'output'  # Replace with your output folder path
 
 # Ensure output folder exists
+os.makedirs(input_folder, exist_ok=True)
 os.makedirs(output_folder, exist_ok=True)
 
 # Process each EPUB file in the input folder
