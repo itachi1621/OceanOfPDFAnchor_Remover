@@ -28,10 +28,10 @@ OceanOfPDFAnchor_Remover is a Python project that aims to remove anchor tags fro
     ```
 
 ## Usage
-1. Place the epuub files you want to process in the `input` directory.
+1. Place the epuub files you want to process in the `input` directory you may need to create this directory in the folder of run the program first so it can create it for you.
 2. Run the script:
     ```
-    python remove_anchors.py
+    python OceanOfPDFAnchor_Remover.py
     ```
 3. The processed epub files will be saved in the `output` directory.
 
